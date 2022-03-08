@@ -1,9 +1,10 @@
 import React from 'react'
+/* import Massage from './Massage' */
 
-const App = () => {
+function App() {
   return (
     <div>
-      <h1>hello</h1>
+  {/*     <Massage/> */}
     </div>
   )
 }
