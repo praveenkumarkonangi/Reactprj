@@ -1,11 +1,10 @@
 import React from 'react'
-import Emlpoyee from './Emlpoyee'
-
-function App() {
+import Test from './Test'
+const App = () => {
   return (
     <div>
-      
-        <Emlpoyee/>
+       
+        <Test/>
     </div>
   )
 }

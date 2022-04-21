@@ -1,11 +1,9 @@
 import React from 'react'
-import Emlpoyee from './Emlpoyee'
-
-function App() {
+import Header from './Header/Header'
+const App = () => {
   return (
     <div>
-      
-        <Emlpoyee/>
+        <Header/>
     </div>
   )
 }

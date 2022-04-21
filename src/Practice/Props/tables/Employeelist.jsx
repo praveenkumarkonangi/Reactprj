@@ -4,8 +4,8 @@ import React, { Component } from 'react'
   render() {
     return (
       <div>
-          <h1>hey</h1>
-          <table border="2">
+          
+          <table  className='table tbale-hover  table-dark'>
               <thead>
                   <tr>
                       <th>name</th>
@@ -26,7 +26,7 @@ import React, { Component } from 'react'
                       })
                   }
                   
-              </tbody>
+              </tbody> 
           </table>
       </div>
     )

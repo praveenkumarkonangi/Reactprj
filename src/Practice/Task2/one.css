@@ -1,0 +1,109 @@
+
+.heading{
+    color: #987c61;
+    text-align: center;
+
+}
+.img2{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.sh{
+    margin-top: 3em;
+    text-align: center;
+    color:#987c61
+}
+.col2{
+    margin-top: 2.5em;
+    color:#987c61
+}
+.col3{
+   
+    text-align: center;
+    border: 1px black;
+}
+.section-title-container {
+    text-align: center;
+    margin: 6em 0 2em;
+}
+
+.button {
+    background-color: #de675f;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    padding: 1.25em 1.5em;
+}
+.button {
+    display: inline-block;
+}
+.callout{
+    text-align: center;
+    color:azure;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    
+    background-color: #fff !important
+}
+a {
+    color: #fff;
+  
+}
+.our{
+    text-align:center ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 11em 1.6em 14em !important;
+    margin: 0 0 1.5em 0 !important;
+    
+            width: 50%;
+            border: 0;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+.border1{
+    border: 1px groove #ddd !important;
+    padding: 0 28em 1.6em 28em !important;
+    margin: 0 0 1.5em 0 !important;
+    
+            width: 50%;
+            border: 0;
+
+}
+.border2{
+    border: 1px groove #ddd !important;
+    padding: 0 25em 1.6em 25em !important;
+    margin: 0 0 1.5em 0 !important;
+    
+            width: 50%;
+            border: 0;
+
+
+
+        }
+        .ml{
+            margin-left: 15px;
+        }
+
+

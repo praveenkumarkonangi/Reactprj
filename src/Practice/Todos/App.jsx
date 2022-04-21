@@ -1,11 +1,9 @@
 import React from 'react'
-import Emlpoyee from './Emlpoyee'
-
-function App() {
+import Todoform from './Todoform'
+const App = () => {
   return (
     <div>
-      
-        <Emlpoyee/>
+        <Todoform/>
     </div>
   )
 }

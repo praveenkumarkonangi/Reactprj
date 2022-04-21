@@ -1,10 +1,10 @@
 import React from 'react';
 import {useSelector,useDispatch} from 'react-redux';
-import {IncrementAction,DecrementAction} from './Action/Action'
+import {IncrementAction,DecrementAction} from './Action/A'
 
 const Ui = () => {
-    const Storevalue = useSelector((state)=>{
-        return state.count
+    const Storevalue = useSelector((name)=>{
+        return name.count
     })
     const dispatch = useDispatch();
 
@@ -16,7 +16,7 @@ const Ui = () => {
       <div className="col">
         <div className="card">
           <div className="card-header">
-          <h1>Counter ( {Storevalue.counter} )</h1>
+          <h1>name ( {Storevalue.name} )</h1>
           </div>
           <div className="card-body"> <button className='m-2'
         onClick={()=>{dispatch(DecrementAction())}}>DECR</button>

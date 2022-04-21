@@ -1,11 +1,9 @@
 import React from 'react'
-import Emlpoyee from './Emlpoyee'
-
-function App() {
+import Components from './Components'
+const App = () => {
   return (
     <div>
-      
-        <Emlpoyee/>
+        <Components/>
     </div>
   )
 }
